@@ -5,12 +5,14 @@ class GeneralDisplay extends React.Component {
     const { generalInfo } = this.props;
     const { name, email, phone } = generalInfo;
     return (
-      <div className="cv-section-wrapper">
+      <div>
         <h2 className="display-header">Personal Information</h2>
-        <div className="display-section-wrapper">
-          <div className="display-detail display-gen-name">{name}</div>
-          <div className="display-detail display-detail-small">{email}</div>
-          <div className="display-detail display-detail-small">{phone}</div>
+        <div className="cv-section-wrapper">
+          <div className="display-section-wrapper">
+            <div className="display-detail display-gen-name">{name}</div>
+            <div className="display-detail display-detail-small">{email}</div>
+            <div className="display-detail display-detail-small">{phone}</div>
+          </div>
         </div>
       </div>
     );

@@ -8,29 +8,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      buildMode: false,
-      editMode: false,
+      buildMode: true,
       resumeInfo: {
         generalInfo: {
-          name: 'Name',
-          email: 'email@example.com',
-          phone: '123-456-7890',
+          name: '',
+          email: '',
+          phone: '',
         },
-        eduInfo: [{
-          schoolName: 'SchoolName',
-          studyTitle: 'Field of study',
-          eduStartDay: '2020-01-01',
-          eduEndDay: '2020-01-02',
-          eduIndex: '0',
-        }],
-        jobInfo: [{
-          companyName: 'Company Name',
-          posTitle: 'Worker',
-          tasks: 'Doing literally everyone elses job',
-          jobStartDay: '2021-01-01',
-          jobEndDay: '2021-02-01',
-          jobIndex: '0',
-        }],
+        eduInfo: [],
+        jobInfo: [],
       },
     };
 

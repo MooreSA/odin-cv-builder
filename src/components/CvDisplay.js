@@ -14,7 +14,6 @@ class CvDisplay extends React.Component {
           <EduWrapper eduInfo={eduInfo} />
           <JobWrapper jobInfo={jobInfo} />
         </div>
-        <button className="btn-toggle-edit" type="button">Edit Resume</button>
       </div>
     );
   }
