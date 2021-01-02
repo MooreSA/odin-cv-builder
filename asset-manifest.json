@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/odin-cv-builder/static/css/main.22fcb328.chunk.css",
-    "main.js": "/odin-cv-builder/static/js/main.bb7fd9fc.chunk.js",
-    "main.js.map": "/odin-cv-builder/static/js/main.bb7fd9fc.chunk.js.map",
+    "main.js": "/odin-cv-builder/static/js/main.f74ca8e9.chunk.js",
+    "main.js.map": "/odin-cv-builder/static/js/main.f74ca8e9.chunk.js.map",
     "runtime-main.js": "/odin-cv-builder/static/js/runtime-main.8d10db3d.js",
     "runtime-main.js.map": "/odin-cv-builder/static/js/runtime-main.8d10db3d.js.map",
     "static/js/2.d97d3142.chunk.js": "/odin-cv-builder/static/js/2.d97d3142.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.8d10db3d.js",
     "static/js/2.d97d3142.chunk.js",
     "static/css/main.22fcb328.chunk.css",
-    "static/js/main.bb7fd9fc.chunk.js"
+    "static/js/main.f74ca8e9.chunk.js"
   ]
 }
